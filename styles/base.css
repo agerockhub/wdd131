@@ -1,0 +1,140 @@
+:root {
+    --primary-color: #581845;
+    --secondary-color: #DAF7A6;
+    --accent-color: #FFC300;
+    --background-color: #ebebeb;
+    --text-color: #333333;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    line-height: 18pt;
+}
+
+.anton-regular {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 1rem 0 0 0;
+}
+
+header span {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+nav {
+    background: var(--text-color);
+    color: var(--background-color);
+    padding: 1rem 4rem;
+    margin-top: 1rem;
+}
+
+main h1 {
+    text-align: center;
+    padding: 1rem;
+}
+
+.cap {
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    border-radius: 10px 10px 0 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.3em;
+}
+
+nav a {
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--background-color);
+    text-decoration: none;
+}
+
+nav a:hover {
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.card p {
+    margin: 2rem;
+}
+
+.gh {
+    text-align: center;
+    margin: 0;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    text-align: center;
+    background-color: var(--text-color);
+    /* choose your color */
+    width: 25%;
+    margin: 0 auto 0 auto;
+}
+
+.img-left {
+    float: left;
+    width: 220px;
+    height: auto;
+    margin: 2rem;
+
+}
+
+.img-right {
+    float: right;
+    width: 220px;
+    height: auto;
+    margin: 2rem;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 0;
+    /* Optional: space between the columns */
+    padding: 20px;
+}
+
+.card {
+    min-height: 250px;
+    margin: 1%;
+    border: solid 1px var(--text-color);
+    border-radius: 10px;
+    background: var(--background-color);
+}
+
+.resources {
+    padding: 1rem 4rem 1rem 4rem;
+}
+
+footer {
+    padding: 1rem;
+    text-align: center;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+}

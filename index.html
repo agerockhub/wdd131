@@ -4,11 +4,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131</title>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals, Daniel Boateng, About me, Web Dev Resources">
+    <meta name="author" content="Daniel Boateng">
+    <title>WDD 131 - Dynamic Web Fundamentals - Daniel Boateng</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Great+Vibes&family=Lobster&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&display=swap"
+        rel="stylesheet">
+    <link href="styles/base.css" rel="stylesheet">
+    <script src="scripts/getdates.js" defer></script>
 </head>
 
 <body>
-<h1>WDD 131 - Daniel Boateng</h1>
+    <header>
+        <span id="ourse-title"> WDD 131 - Dynamic Web Fundamentals </span>
+        <nav>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/daniel-boateng-12362aa3" target="_blank">LinkedIn</a></li>
+                <li><a href="https://byupw.instructure.com" target="_blank">Canvas</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures" target="_blank">Scripture</a></li>
+                <li><a href="#">Final Project</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Daniel Boateng</h1>
+        <div class="grid-container">
+            <section class="card">
+                <div class="cap">
+                    <h2>About me</h2>
+                </div>
+                <img src="images/DanielBoateng.jpg" class="img-left" alt="Daniel Boateng profile picture">
+                <p>
+                    Currently, I live in Accra. I work as an ICT trainer with an IT firm,
+                    where I enjoy the
+                    opportunity to impact lives and share valuable knowledge. Teaching and guiding others in the field
+                    of
+                    technology is not
+                    just a job for me, it's a passion. I'm naturally curious and love discovering and experiencing new
+                    things
+                    that broaden my
+                    perspective and creativity.
+
+                    Outside of work, I enjoy music and movies, which help me relax and stay
+                    inspired. Whether
+                    it's learning something new or helping someone grow, I find joy in every step of the journey. I
+                    believe
+                    in continuous
+                    growth, meaningful connections, and using my skills to make a positive difference.
+
+                </p>
+                <h3 class="gh">
+                    Accra, Ghana
+                </h3>
+                <hr>
+                <img src="images/ghana.jpg" class="img-right" alt="a picture of Ghana">
+                <p>
+                    Ghana is a West African country located along the Gulf of Guinea and the Atlantic Ocean. Known for
+                    its rich history,
+                    vibrant culture, and political stability, Ghana is home to diverse ethnic groups, including the
+                    Akan, Ewe, and
+                    Mole-Dagbani. The people are known for their warmth, hospitality, and strong sense of community.
+                    Traditional festivals,
+                    colorful attire, and high respect for elders reflect their way of life. Ghana blends modern living
+                    with deep-rooted
+                    customs, making it uniquely dynamic and culturally rich.
+                </p>
+            </section>
+
+
+            <section class="card">
+                <div class="cap">
+                    <h2>Web Dev Resources</h2>
+                </div>
+                <ul class="resources">
+                    <li><a href="https://www.youtube.com/watch?v=qm0IfG1GyZU&t=465s" target="_blank">Youtube</a></li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p> &copy; <span id="currentyear"></span>Daniel Boateng - Ghana</p>
+        <p id="lastModified"></p>
+    </footer>
 </body>
 
 </html>
