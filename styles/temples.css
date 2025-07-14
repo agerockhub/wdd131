@@ -35,6 +35,11 @@ h1 {
     color: var(--gold);
 }
 
+main h2 {
+    padding: 2rem;
+    text-align: center;
+}
+
 nav {
     background-color: var(--gold);
 }
