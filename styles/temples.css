@@ -1,0 +1,112 @@
+:root {
+    --gold: #FFC300;
+    --white: #fff;
+    --light-gray: #eee;
+    --black: #000;
+    --dark-gray: #333;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    background-color: var(--black);
+    display: grid;
+    grid-gap: 1rem;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 30px var(--dark-gray);
+}
+
+header,
+main {
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2rem;
+    color: var(--gold);
+}
+
+nav {
+    background-color: var(--gold);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+nav a {
+    display: block;
+    color: var(--black);
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: larger;
+}
+
+nav a:hover {
+    text-decoration: none;
+    background-color: var(--light-gray);
+    color: var(--black);
+}
+
+.active {
+    color: var(--white);
+}
+
+#menuButton {
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: var(--gold);
+    cursor: pointer;
+    display: block;
+}
+
+#navMenu {
+    display: none;
+}
+
+#navMenu.open {
+    display: block;
+}
+
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 10px;
+}
+
+main img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+figcaption {
+    padding: 0.5rem;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    color: var(--gold);
+    background-color: var(--black);
+    padding: 1rem;
+}
