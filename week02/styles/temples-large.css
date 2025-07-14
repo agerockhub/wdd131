@@ -1,0 +1,52 @@
+@media (min-width: 650px) {
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    nav ul {
+        justify-content: flex-end;
+        flex-direction: row;
+    }
+
+    nav a {
+        flex: 1 1 100%;
+    }
+
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 850px) {
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    nav ul {
+        justify-content: flex-end;
+        flex-direction: row;
+    }
+
+    nav a {
+        flex: 1 1 100%;
+    }
+
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+/* Hide hamburger in large views */
+@media (min-width: 650px) {
+    #menuButton {
+        display: none;
+    }
+
+    #navMenu {
+        display: block !important;
+    }
+}
