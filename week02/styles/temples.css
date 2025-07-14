@@ -16,7 +16,6 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-/* mobile **************************/
 header {
     background-color: var(--black);
     display: grid;
@@ -65,8 +64,6 @@ nav a:hover {
     color: var(--white);
 }
 
-/*HAMBURGER men*/
-/* Hamburger button styling */
 #menuButton {
     font-size: 2rem;
     background: none;
@@ -76,17 +73,14 @@ nav a:hover {
     display: block;
 }
 
-/* Hide the menu in mobile by default */
 #navMenu {
     display: none;
 }
 
-/* When open class is toggled on */
 #navMenu.open {
     display: block;
 }
 
-/*hamburger MENU*/
 
 main {
     max-width: 800px;

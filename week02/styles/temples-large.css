@@ -40,7 +40,6 @@
     }
 }
 
-/* Hide hamburger in large views */
 @media (min-width: 650px) {
     #menuButton {
         display: none;
