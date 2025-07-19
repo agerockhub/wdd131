@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Daniel Boateng">
+    <meta name="description" content="Central London, Wind Chill, ">
+    <title>Country or Place</title>
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+</head>
+
+<body>
+    <header>
+        <h1>Central London</h1>
+        <img src="images/uk-flag.png">
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <source media="(min-width: 1000px )" srcset="images/London-large.webp">
+                <source media="(min-width:500px )" srcset="images/london-medium.webp">
+                <img src="images/london-small.webp" alt="image by Mohamed Ishaq Villan, Central London" width="500px"
+                    height="250px">
+            </picture>
+        </div>
+        <div class="content-data">
+            <h2>Data</h2>
+            <ul class="item1">
+                <li>Area:</li>
+                <li>Population:</li>
+                <li>Capital:</li>
+                <li>Languages:</li>
+                <li> Currency:</li>
+                <li>Time Zone:</li>
+                <li> Calling Code:</li>
+                <li>Internet TLD:</li>
+            </ul>
+            <ul class="item2">
+                <li>1,738 km²</li>
+                <li>8.95 million(2023)</li>
+                <li>London</li>
+                <li>British English</li>
+                <li>Pound Steling</li>
+                <li>UTC+3</li>
+                <li>+44</li>
+                <li>.uk</li>
+            </ul>
+        </div>
+        <hr>
+        <div class="content-weather">
+            <h2>Weather</h2>
+            <img src="images/weather.svg" class="weather">
+            <ul class="item1">
+                <li>Tempreture:</li>
+                <li>Conditions:</li>
+                <li>Wind:</li>
+                <li>Wind Chill:</li>
+            </ul>
+            <ul class="item2">
+                <li>10&deg;C</li>
+                <li>Partly cloudy:</li>
+                <li>5km/h:</li>
+                <li id="wind-chill">Loading...</li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <p> &copy; <span id="currentyear"></span>Daniel Boateng - Ghana</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/place.js" defer></script>
+</body>
+
+</html>
