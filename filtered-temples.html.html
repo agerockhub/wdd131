@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Daniel Boateng">
+    <meta name="description" content="Responsive Temples Picture Album">
+    <title>Temples Picture Album</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Lobster&family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/filtered-temples.css">
+    <link rel="stylesheet" href="styles/filtered-temples-large.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Temple</h1>
+        <button id="menuButton" aria-label="Menu">&#9776;</button>
+        <nav id="navMenu">
+            <ul>
+                <li><a href="#" id="home" class="active">Home</a></li>
+                <!--<li><a href="#" class="active">Home</a></li>-->
+                <li><a href="#" id="old">Old</a></li>
+                <li><a href="#" id="new">New</a></li>
+                <li><a href="#" id="large">Large</a></li>
+                <li><a href="#" id="small">Small</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="res-grid">
+        <h2>Temples around the world</h2>
+    </main>
+    <footer>
+        <p> &copy; <span id="currentyear"></span>Daniel Boateng - Ghana</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/filtered-temples.js" defer></script>
+</body>
+
+</html>
