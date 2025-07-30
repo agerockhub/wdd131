@@ -1,0 +1,25 @@
+:root {
+    --color-white: #fff;
+    --color-black: #000;
+    --color-light-blue: rgb(230, 243, 254);
+}
+
+body {
+    color: var(--color-black);
+}
+
+main {
+    margin: 0;
+    padding: 1rem;
+}
+
+section {
+    padding: 1rem;
+    border: solid 1px #bbb;
+    background-color: var(--color-light-blue);
+    margin: 1rem;
+}
+
+span {
+    font-weight: bold;
+}

@@ -149,3 +149,8 @@ document.querySelector("#small").addEventListener("click", () => {
 
 // Initial load
 renderTemples(temples);
+
+/*
+INSTRUCTIONS PAGE:
+https://byui-cse.github.io/wdd131-ww-course/week04/assignment-04.html
+*/
