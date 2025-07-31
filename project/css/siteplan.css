@@ -1,25 +1,47 @@
 :root {
-    --color-white: #fff;
-    --color-black: #000;
-    --color-light-blue: rgb(230, 243, 254);
+    --color-primary: #2E7D32;
+    --color-accent: #FFB300;
+    --color-secondary: #6D4C41;
+    --color-background: #FFF8E1;
+    --color-text: #333333;
+}
+
+header {
+    padding: 2rem;
+    margin: 0;
+    background-color: #FFB300;
+    text-align: center;
 }
 
 body {
-    color: var(--color-black);
+    color: var(--color-text);
+    font-family: Lora;
+}
+
+h1 {
+    font-family: Montserrat;
+}
+
+h2,
+h3 {
+    font-family: Roboto;
 }
 
 main {
     margin: 0;
     padding: 1rem;
+    min-width: 350px;
 }
 
 section {
     padding: 1rem;
-    border: solid 1px #bbb;
-    background-color: var(--color-light-blue);
+    border: solid 1px var(--color-accent);
+    background-color: var(--color-background);
     margin: 1rem;
 }
 
-span {
+figcaption {
+    text-align: center;
+    padding: 1rem;
     font-weight: bold;
 }
