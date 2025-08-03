@@ -1,0 +1,91 @@
+header,
+footer {
+    padding: 2rem;
+    background-color: #000;
+    color: #bbb;
+    max-width: 350px;
+    text-align: center;
+}
+
+main {
+    max-width: 350px;
+    padding: 2rem;
+    background-color: rgb(164, 187, 205);
+}
+
+label {
+    display: block;
+    margin-top: 0.5rem;
+}
+
+input,
+select {
+    width: 100%;
+    height: 40px;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+}
+
+
+input[type="checkbox"] {
+    width: auto;
+    margin: 0;
+    vertical-align: middle;
+}
+
+input[type="radio"] {
+    display: inline-block;
+    width: auto;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 102%;
+    margin-top: 0.5rem;
+}
+
+.rating-group label,
+.rating-group input {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/*STARS*/
+input[type="radio"] {
+    display: none;
+    position: relative;
+    caret-color: rgba(0, 0, 0, 0);
+}
+
+.stars {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+}
+
+.stars>label {
+    color: gold;
+    width: 30px;
+    height: 30px;
+    font-size: 2rem;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    caret-color: rgba(0, 0, 0, 0);
+    /* remove blinking cursor*/
+}
+
+.stars>label:hover {
+    color: #000;
+}
+
+.stars>label::before {
+    content: "\2606";
+}
+
+.stars input:checked~label::before {
+    content: "\2605";
+}
