@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Daniel Boateng">
+    <meta name="description" content="WDD131 final project, beyond the cities, local tourism">
+    <title>Beyond The Cities | Contact page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Lobster&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/siteplan.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/btc.png" alt="beyond the cities logo">
+            <h1>Beyond the Cities</h1>
+        </div>
+        <button id="menuButton" aria-label="Menu">&#9776;</button>
+        <nav id="navMenu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="packages.html">Tours & Packages</a></li>
+                <li><a href="contact.html" class="active">Contact </a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="wrap">
+            <div class="why-travel-beyond-the-cities">
+                <h2>Contact Beyond the Cities</h2>
+                <ul>
+                    <li>Tel:+233 244 141 739</li>
+                    <li>Email: info@beyondthecities.com</li>
+                    <li>Office Location: Kwame Nkrumah Circle, Next to PTC building</li>
+                </ul>
+
+            </div>
+            <div class="packages-grid">
+                <h2>Give us a feedback</h2>
+                <div class="upcoming-tour">
+                    <form action="form.js" method="get">
+                        <label for="name">Name:<input type="text" name="name" id="name"></label>
+                        <label for="email">Email:<input type="email" name="email" id="email"></label>
+                        <label for="message">Message:<textarea type="tel" name="message"
+                                id="message"></textarea></label>
+                        <input type="submit" value="Send feedback">
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <footer>
+        <p> &copy; <span id="currentyear"></span>Daniel Boateng - Ghana</p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <script src="scripts/script.js" defer></script>
+</body>
+
+</html>

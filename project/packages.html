@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Daniel Boateng">
+    <meta name="description" content="WDD131 final project, beyond the cities, local tourism">
+    <title>Beyond The Cities | Tour packages page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Lobster&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/siteplan.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/btc.png" alt="beyond the cities logo">
+            <h1>Beyond the Cities</h1>
+        </div>
+        <button id="menuButton" aria-label="Menu">&#9776;</button>
+        <nav id="navMenu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#" class="active">Tours & Packages</a></li>
+                <li><a href="contact.html">Contact </a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="tour-packages">
+            <h2>Beyond the Cities - Tour Packages</h2>
+            <div class="packages-grid">
+
+                <!-- Romantic Escape for Couples -->
+                <div class="package-card">
+                    <img src="images/couples2.jpg" alt="Romantic Escape for Couples">
+                    <h3>Romantic Escape for Couples</h3>
+                    <p><strong>Duration:</strong> 3 Days / 2 Nights</p>
+                    <p>Private beach dinner, sunset cruise, couples’ spa, and cultural evening.</p>
+                    <p class="price">From $300 per couple</p>
+                    <a href="booking.html" class="btn">Book Now</a>
+                </div>
+
+                <!-- Family Fun Getaway -->
+                <div class="package-card">
+                    <img src="images/family.jpg" alt="Family Fun Getaway">
+                    <h3>Family Fun Getaway</h3>
+                    <p><strong>Duration:</strong> 4 Days / 3 Nights</p>
+                    <p>Wildlife park visit, beach picnic, cultural village, and kid-friendly activities.</p>
+                    <p class="price">From $500 per family (up to 4 members)</p>
+                    <a href="booking.html" class="btn">Book Now</a>
+                </div>
+
+                <!-- Pet-Friendly Adventure -->
+                <div class="package-card">
+                    <img src="images/friendly.jpg" alt="Pet-Friendly Adventure">
+                    <h3>Pet-Friendly Adventure</h3>
+                    <p><strong>Duration:</strong> 2 Days / 1 Night</p>
+                    <p>Hiking trails, pet beach play, nature picnic, and pet photography.</p>
+                    <p class="price">From $150 per person + pet</p>
+                    <a href="booking.html" class="btn">Book Now</a>
+                </div>
+
+                <!-- Gourmet Foodie Tour -->
+                <div class="package-card">
+                    <img src="images/foodies.jpg" alt="Gourmet Foodie Tour">
+                    <h3>Gourmet Foodie Tour</h3>
+                    <p><strong>Duration:</strong> 3 Days / 2 Nights</p>
+                    <p>Market tour, cooking class, street food tasting, and wine dinner.</p>
+                    <p class="price">From $280 per person</p>
+                    <a href="booking.html" class="btn">Book Now</a>
+                </div>
+
+                <!-- Luxury Accommodation Retreat -->
+                <div class="package-card">
+                    <img src="images/luxury.jpg" alt="Luxury Accommodation Retreat">
+                    <h3>Luxury Accommodation Retreat</h3>
+                    <p><strong>Duration:</strong> 5 Days / 4 Nights</p>
+                    <p>Eco-luxury lodges, private pools, daily massages, and gourmet dining.</p>
+                    <p class="price">From $800 per person</p>
+                    <a href="booking.html" class="btn">Book Now</a>
+                </div>
+
+                <!-- Solo Explorer’s Journey -->
+                <div class="package-card">
+                    <img src="images/solo.jpg" alt="Solo Explorer’s Journey">
+                    <h3>Solo Explorer’s Journey</h3>
+                    <p><strong>Duration:</strong> 3 Days / 2 Nights</p>
+                    <p>Guided tours, photography walks, workshops, and evening socials.</p>
+                    <p class="price">From $200 per person</p>
+                    <a href="booking.html" class="btn">Book Now</a>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <p> &copy; <span id="currentyear"></span>Daniel Boateng - Ghana</p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <script src="scripts/script.js" defer></script>
+</body>
+
+</html>

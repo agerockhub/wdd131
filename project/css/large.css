@@ -1,0 +1,103 @@
+@media (min-width: 650px) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        flex: 1;
+    }
+
+    nav {
+        flex: 2;
+    }
+
+    nav ul {
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    nav a {
+        padding: 1rem;
+    }
+}
+
+@media (min-width: 720px) {
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    nav ul {
+        justify-content: flex-end;
+        flex-direction: row;
+    }
+
+    nav a {
+        flex: 1 1 100%;
+    }
+
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .welcome-message {
+        position: absolute;
+        left: 50px;
+        top: 320px;
+        opacity: 0.75;
+        background-color: #fff;
+        padding: 1.5rem;
+        text-align: justify;
+        width: 400px;
+        margin: auto;
+    }
+
+    .featured-destination-card {
+        position: absolute;
+        top: 150px;
+        right: 50px;
+        width: 400px;
+        margin: auto;
+
+    }
+
+    .wrap {
+        display: flex;
+        padding: 2rem;
+        background-color: black;
+    }
+}
+
+@media (min-width: 850px) {
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    nav ul {
+        justify-content: flex-end;
+        flex-direction: row;
+    }
+
+    nav a {
+        flex: 1 1 100%;
+    }
+
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 650px) {
+    #menuButton {
+        display: none;
+    }
+
+    #navMenu {
+        display: block !important;
+    }
+}

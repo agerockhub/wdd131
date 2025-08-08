@@ -1,0 +1,17 @@
+//first
+name:Aburi Gardens
+img:kakum-park.jpg
+alt:kakum national park
+loc:Eastern Ghana
+
+//second
+name:Monkey Sanctuary Park
+img:monkey-park.jpg
+alt:Monkey sanctuary park
+loc:Accra, Shai Hills
+
+//third
+name:Crocodile Park
+img:crocodile-park.jpg
+alt:Crocodile park
+loc:Paga, Northern Ghana

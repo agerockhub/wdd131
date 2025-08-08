@@ -1,0 +1,27 @@
+image:afram-plains.jpg
+alt:Afram plains farming area
+figcaption:Afram Plains
+
+image:asante-hene
+alt:King Osei Tutu II
+figcaption:Otumfuo Osei Tutu
+
+image:bakatue-festival1.jpg
+alt:Bakatue festival
+figcaption:Bakatue Festival
+
+image:fishing-habour
+alt:Tema fising habour
+figcaption:Tema Fishing Habour
+
+image:hogbetsotso-festival.jpg
+alt:Hogbetsotso festival
+figcaption:Hogbetsotso Festival
+
+image:james-town.jpg
+alt:Accra James Town
+figcaption:Accra James Town 
+
+image:oldest-mosque.jpg
+alt:Oldest mosque in Ghana
+figcaption:Oldest Mosque in Ghana

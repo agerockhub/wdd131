@@ -1,15 +1,19 @@
+Starter Pack.
+100USD
+Domain name with Hosting for 1year
+10 GB SSD Storage
 
-// Set the current year
-document.getElementById("currentyear").textContent = new Date().getFullYear();
+Professiona Pack.
+150USD
+Domain name with Hosting for 1year
+15 GB SSD Storage
 
-// Set the last modified date
-document.getElementById("lastModified").textContent = "Last Modified: " + document.lastModified;
+Professiona Pack.
+150USD
+Domain name with Hosting for 1year
+Unlimited SSD Storage
 
-// Hamburger Menu Toggle
-const menuButton = document.getElementById("menuButton");
-const navMenu = document.getElementById("navMenu");
-
-menuButton.addEventListener("click", () => {
-    navMenu.classList.toggle("open");
-    menuButton.classList.toggle("open");
-});
+Professiona Pack.
+200USD
+Domain name with Hosting for 1year
+Unlimited SSD Storage

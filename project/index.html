@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Daniel Boateng">
+    <meta name="description" content="WDD131 final project, beyond the cities, local tourism">
+    <title>Beyond The Cities | Homepage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Lobster&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/siteplan.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/btc.png" alt="beyond the cities logo">
+            <h1>Beyond the Cities</h1>
+        </div>
+        <button id="menuButton" aria-label="Menu">&#9776;</button>
+        <nav id="navMenu">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="packages.html">Tours & Packages</a></li>
+                <li><a href="contact.html">Contact </a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <source media="(min-width: 1000px )" srcset="images/btc-large.webp">
+                <source media="(min-width:500px )" srcset="images/btc-medium.webp">
+                <img src="images/btc-small.webp" alt="a tourist site in Ghana" width="500px" height="250px"
+                    loading="lazy">
+            </picture>
+        </div>
+        <div class="welcome">
+            <h2 class="welcome-elements">Discover GH Beyond the Cities</h2>
+            <p class="welcome-elements">Uncover hidden gems, rich culture, and unforgettable adventures.</p>
+        </div>
+        <div class="welcome-message">
+            <h2>Welcome to Beyond the Cities</h2>
+            <p>
+                Journey with us as we connect you to Ghana's breathtaking destinations beyond urban life. From serene
+                waterfalls and
+                lush mountains to vibrant traditions and untold stories—this is where the real adventure begins. Let’s
+                explore the
+                heart of Ghana, one village at a time.
+            </p>
+        </div>
+        <div class="featured-destination-card" id="card">
+            <h2>Featured Destinations</h2>
+            <div class="featured-destination-name" id="name">Aburi Gardens</div>
+            <div class="featured-destination-img" id="img"><img src="images/monkey-santuary.jpg"
+                    alt="Monkey santuary park" loading="lazy" width="100%"></div>
+            <div class="featured-destination-loc" id="loc">Eastern Ghana</div>
+        </div>
+        <div class="partners-wrapper">
+            <div class="partners" id="sponsors"></div>
+        </div>
+
+        <h2>Top Cultural Experiences in Ghana</h2>
+        <div class="scroll-wrapper">
+            <div class="scroll-track" id="experiences"></div>
+        </div>
+        <!--WRAP START-->
+        <div class="wrap">
+            <div class="why-travel-beyond-the-cities">
+                <h2>Why Travel Beyond the Cities</h2>
+                <ul>
+                    <li>Experience real culture and traditions through meaningful interactions with locals in villages
+                        and
+                        rural communities.</li>
+                    <li>Explore nature responsibly through eco-tourism while supporting conservation and sustainable
+                        community-led initiatives.</li>
+                    <li>Enjoy budget-friendly travel packed with unique, lasting memories beyond the typical tourist
+                        experience.</li>
+                </ul>
+
+            </div>
+
+            <div class="upcoming-tour">
+                <h2>Upcoming Tour Trip</h2>
+                <img src="images/boti-falls.jpg" alt="Boti water falls">
+                <ul>
+                    <li class="upcoming-tour-details"><strong>Date:</strong>Boti Water Falls</li>
+                    <li class="upcoming-tour-details"><strong>Location:</strong>Volta Region, Ghana</li>
+                    <li class="upcoming-tour-details"><strong>Site description</strong> Boti Waterfalls: Twin cascades
+                        surrounded by lush forest, perfect for adventure and relaxation.</li>
+                </ul>
+            </div>
+            <div class="upcoming-tour">
+                <h2>Book For a Tour</h2>
+                <form id="bookingForm">
+                    <label for="name">Name:
+                        <input type="text" name="name" id="name" required>
+                    </label>
+                    <label for="email">Email:
+                        <input type="email" name="email" id="email" required>
+                    </label>
+                    <label for="tel">Tel:
+                        <input type="tel" name="tel" id="tel" required>
+                    </label>
+                    <input type="submit" value="Book a tour">
+                </form>
+
+                <!-- Download button -->
+                <button id="downloadBtn">Download Entries</button>
+            </div>
+        </div>
+        <!--WRAP END-->
+        <div class="travel-testimonials">
+
+    </main>
+    <footer>
+        <p> &copy; <span id="currentyear"></span>Daniel Boateng - Ghana</p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <script src="scripts/script.js" defer></script>
+</body>
+
+</html>
